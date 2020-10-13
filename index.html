@@ -1,30 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My Home Page</title>
+  <meta charset="UTF-8">
+  <title>ArakalAbu</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-	<h2>My Bio</h1>
-	<p>I'm Aswin Rakesh and currently I'm doing my seventh semester in CSE</p>
-	<h2>Date of Birth</h2>
-	<p>11 October, 1999</p>
-	<h2>Home Address</h3>
-	<p>TC 23/1209(3)
-	   Royal Park
-	   Melarannoor
-	   Karamana
-	   Trivandrum
-	</p>
-	<h2>Technical Interests</h4>
-	<p>Application development, JAVA</p>
-	<h2>Other interests</h5>
-	<p>Football, Music</p>
-	<h2>Favourite Indian Sportsman</h6>
-	<p>Rahul Dravid</p>
-	<h2>Favourite Movie</h2>
-	<p>Manichitrathazhu</p>
-	<h2>Education</h2>
-	<p>Christ Nagar Higher Secondary School</p>
-	
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Aswin Rakesh</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li id="nav-about"><a href="#about">About</a></li>
+            <li id="nav-project"><a href="#project">Projects</a></li>
+            <li id="nav-contact"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      
+      <div class="row cover top">
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-xs-12 headline">
+              <h1 class="text-center">Hi, I'm Son of Rakesh</h1>
+              <p class="lead text-center">A Java Topper in training.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 center-block text-center">
+              <a href="#about"><span id="scrollIcon" class="front-glyph glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div id="about" class="row cover">
+        <h2 class="text-center">About Me</h2>
+        <div class="row">
+          <div class="col-md-6 text-center about-info">
+            <img class="img-circle text-center profile-img" src="https://i.imgur.com/Dt4I56m_d.webp?maxwidth=728&fidelity=grand">
+            <p class="text-center">The Best. GET OUT!</p>
+          </div>
+          <div class="col-md-6 about-tools">
+            <p class="text-center">Here's a few of the tools I use</p>
+              <div class="col-xs-6">
+                <ul>
+                  <li>JAVA</li>
+                  <li>JAVA</li>
+                  <li>JAVA</li>
+                  <li>JAVA</li>
+                  <li>JAVA</li>
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ul>
+                  <li>JAVA</li>
+                  <li>JAVA</li>
+                  <li>JAVA</li>
+                  <li>JAVA</li>
+                  <li>JAVA</li>
+                </ul>
+              </div>
+            
+          </div>
+          <div class="row break">
+            <div class="col-md-6 about-last">
+              <p class="text-center">Check out my latest projects <span class="glyphicon glyphicon-arrow-down"></span></p>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div id="project" class="row cover">
+        <h2 class="text-center">Projects</h2>
+        <div class="container">
+          <div class="row project-projects"> 
+            <div class="col-lg-6"> 
+              <div class="row"> 
+                <div class="col-sm-5 text-center">
+                  <h4 class="project-projects--title">Title</h4>
+                  <p class="project-projects--desc">Description</p>
+                  <p class="project-projects--desc">Used concepts</p>
+                  <a class="btn btn-rounded project-projects--btn" href="#" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center">
+                  <img class="project-projects--image" src="https://m8q2a8f3.stackpathcdn.com/wp-content/uploads/2015/12/child-theme-cover.png">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row"> 
+                <div class="col-sm-5 text-center pull-right-sm">
+                  <h4 class="project-projects--title">Title</h4>
+                  <p class="project-projects--desc">Discription</p>
+                  <p class="project-projects--desc">Used concepts</p>
+                  <a class="btn btn-rounded project-projects--btn" href="#" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center pull-right-sm">
+                  <img class="img-rounded project-projects--image" src="https://m8q2a8f3.stackpathcdn.com/wp-content/uploads/2015/12/child-theme-cover.png">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row project-projects"> 
+            <div class="col-lg-6"> 
+              <div class="row"> 
+                <div class="col-sm-5 text-center">
+                  <h4 class="project-projects--title">Title</h4>
+                  <p class="project-projects--desc">Discription</p>
+                  <p class="project-projects--desc">Used concepts</p>
+                  <a class="btn btn-rounded project-projects--btn" href="#" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center">
+                  <img class="img-rounded project-projects--image" src="https://m8q2a8f3.stackpathcdn.com/wp-content/uploads/2015/12/child-theme-cover.png">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6"> 
+              <div class="row"> 
+                <div class="col-sm-5 text-center pull-right-sm">
+                  <h4 class="project-projects--title">Title</h4>
+                  <p class="project-projects--desc">Description</p>
+                  <p class="project-projects--desc">Used concepts</p>
+                  <a class="btn btn-rounded project-projects--btn" href="#" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center pull-right-sm"><img class="img-rounded project-projects--image" src="https://m8q2a8f3.stackpathcdn.com/wp-content/uploads/2015/12/child-theme-cover.png">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </div>
+
+      <div id="contact" class="row cover bottom">
+        <h2 class="text-center contact-header">Contact Me</h2>
+        <p class="text-center contact-email">Get in touch with me <span class="glyphicon glyphicon-arrow-right"></span> Valorant id : arakalabu #arak</p>
+        <div class="text-center contact-social-icons">
+          <p>Or find me on:</p>
+          <ul class="centered">
+            <a href="#"><li><i class="fa fa-codepen"></i> CodePen</li></a>
+            <a href="#"><li><i class="fa fa-linkedin-square"></i> LinkedIn</li></a>
+            <a href="#"><li><i class="fa fa-github"></i> Github</li></a>
+            <a href="#"><li>(<i class="fa fa-fire"></i>) FreeCodeCamp</li></a>
+            <a href="#"><li> Treehouse</li></a>
+            <a href="#"><li><i class="fa fa-twitter"></i> Twitter</li></a>
+          </ul>
+        </p>
+        
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+      </div>
+    </footer>
+
+  </body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
